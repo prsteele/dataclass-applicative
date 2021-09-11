@@ -11,5 +11,5 @@ let
   };
 in
 pkgs.mkShell {
-  buildInputs = [ app pkgs.black pkgs.python-language-server ];
+  buildInputs = [ app pkgs.black pkgs.python-language-server pkgs.python39Packages.isort ];
 }

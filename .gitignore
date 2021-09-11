@@ -6,4 +6,5 @@
 *.pyc
 __pycache__
 *.egg-info
+.hypothesis
 _build
