@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dataclass-applicative"
-version = "0.1.0.post1"
+version = "0.1.0"
 description = ""
 authors = ["Patrick Steele <steele.pat@gmail.com>"]
 maintainers = ["Patrick Steele <steele.pat@gmail.com>"]
