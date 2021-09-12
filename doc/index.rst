@@ -9,6 +9,7 @@ This packages provides functions for operating on container-like
 
    dataclass_applicative
    point_example
+   domain_modeling
 
 Quick start
 -----------

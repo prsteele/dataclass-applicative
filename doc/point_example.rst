@@ -1,3 +1,5 @@
+.. _2D points:
+
 Example: manipulating 2-dimensional points
 ==========================================
 
