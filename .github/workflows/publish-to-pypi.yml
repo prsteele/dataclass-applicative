@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Run tests
-        run: poetry run python -m pytest --doctest-modules --doctest-glob='*.rst'
+        run: poetry run python -m pytest --doctest-modules --doctest-glob='*.rst' --doctest-glob='*.md'
 
   build-and-publish:
     name: Build and publish Python wheels to PyPI
