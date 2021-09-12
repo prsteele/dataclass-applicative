@@ -3,7 +3,7 @@ on: push
 
 jobs:
   test:
-    name: Tests
+    name: Test
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
@@ -19,7 +19,7 @@ jobs:
         run: poetry run python -m pytest --doctest-modules --doctest-glob='*.rst' --doctest-glob='*.md'
 
   build-and-publish:
-    name: Build and publish Python wheels to PyPI
+    name: Build and publish
     needs: test
     runs-on: ubuntu-20.04
     steps:
