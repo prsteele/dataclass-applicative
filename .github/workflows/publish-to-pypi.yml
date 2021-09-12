@@ -20,6 +20,7 @@ jobs:
 
   build-and-publish:
     name: Build and publish Python wheels to PyPI
+    needs: test
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
